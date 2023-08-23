@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body{
+    background-color: white;
+}
+h1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;  /*altura */
+    padding: 6px 10%;   /* relleno*/
+}
+.header .logo-indice img{
+    height: 75px; /*altura */
+    width: auto;  /*ancho*/
+}
+.header .nav-enlaces{
+    list-style: none; /*estilo de lista*/
+}
+.header .nav-enlaces li{
+    display: inline-block; /*mostrar*/
+    padding: 0 20px;  /*relleno*/
+}
+.header .nav-enlaces a{
+    font-weight: 710;  /*peso de fuente*/
+    color: black;  /*color que tendra texto*/
+    text-decoration: none; /*decoracion de texto*/
+    padding: 9px 20px;  /*rrelleno*/
+    background: orange; /*fondo*/
+    border-radius: 50px;  /*borde-radio*/
+}
+.contenedor{
+    margin: 25px;  /*margen*/
+    align-items: center; /*alinear elemntos*/
+    text-align: center; /*texto alineado*/
+}
+.contenedor img{
+    margin: 25px;  /*margen*/
+    height: 450px;  /*altura*/
+    width: 750px;  /*ancho*/
+}
+.contenedor-quienes-somos h2{
+    color: red;  /*color*/
+    margin-left: 35px; /*margen isquierda*/
+    margin-top: 15px; /*margen superior*/
+}
+.contenedor-quienes-somos p{
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 38px; /*margen derecho*/
+    text-align: justify; /*texto alineado*/
+    line-height: 200%; /*altura de la linea*/
+}
+.content-desarrollo{
+    display: inline; /*mostrar*/
+    align-items: center;  /*alinear elementos*/
+}
+.text-historico{
+    flex: auto;  /*doblar*/
+}
+.h2-dh-p{
+    color: rgb(17, 0, 255);
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.content-desarrollo p{
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 38px;
+    text-align: justify;
+    line-height: 200%; /*altura de la linea*/
+}
+.text-historico span{
+    float: right;
+    margin-left: 10px;
+}
+.text-historico img {
+    width: 200px;
+    height: auto;
+}
+.text-historico p {
+    text-align: justify;
+}
+.boton {
+    margin-top: 25px;
+    margin-left: 30px;
+    padding: 30px;
+    background-color: rgb(224, 156, 30);
+    border-radius: 50rem;
+    border-bottom: 20vh;
+    display: block;
+}
+.seccion-mision-vision{
+    margin-top: 30vh;
+    background-color: rgb(13, 15, 138);
+    margin: 10;
+    padding: 10;
+} 
+.mision-vision{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h2-mision{
+    color: #ffffff;
+    margin-top: 25px;
+}
+.h2-vision{
+    color: #ffffff;
+    margin-top: 25px;
+}
+.footer-contacto{
+    margin: 56;
+    background-color: cornsilk;
+    text-align: center;
+}
+.h2-youtube{
+    color: rgb(27, 117, 252);
+    text-align: center;
+    font-size: 40px;
+    padding: auto;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+.footer-contacto{
+    background-color: blue;
+    padding: 20px;
+}
+.contacto-div {
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+}
+h3{
+    color: white;
+    margin-left: 45px;
+}
+.contacto-div i {
+    margin-right: 10px; 
+}
+.contacto-div a {
+    color: white;
+    text-decoration: none;
+}
+.contacto-div a:hover {
+    text-decoration: underline;
+}
+
